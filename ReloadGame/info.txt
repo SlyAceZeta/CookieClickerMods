@@ -6,5 +6,5 @@
 	"ModVersion": 1.0,
 	"GameVersion": 2.048,
 	"Date": "05/07/2022",
-	"AllowSteamAchievs": 1,
+	"AllowSteamAchievs": 1
 }
