@@ -19,6 +19,6 @@ Game.registerMod("ReloadGameButton", {
 			}
 		}
 
-		Game.Notify('Reload Game Button','Save & Reload button added to Options menu!',[16,5],5);
+		Game.Notify('Reload Game Button','Save & Reload button added!',[16,5],5);
 	}
 });
