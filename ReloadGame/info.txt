@@ -1,0 +1,10 @@
+{
+	"Name": "Reload Game",
+	"ID": "ReloadGame",
+	"Author": "SlyCooperFan1",
+	"Description": "Adds a button in Options to quickly reload the game.",
+	"ModVersion": 1.0,
+	"GameVersion": 2.048,
+	"Date": "05/07/2022",
+	"AllowSteamAchievs": 1,
+}
