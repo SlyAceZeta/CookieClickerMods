@@ -1,7 +1,7 @@
 // Thanks to Save to File for the original code!
 // https://steamcommunity.com/sharedfiles/filedetails/?id=2787207893
 
-Game.registerMod("ReloadGame", {
+Game.registerMod("ReloadGameButton", {
 	init:function(){
 		var menu = Game.UpdateMenu;
 		Game.UpdateMenu = function(){
@@ -19,6 +19,6 @@ Game.registerMod("ReloadGame", {
 			}
 		}
 
-		Game.Notify('Reload Game','Reload button added to Options menu!',[16,5],5);
+		Game.Notify('Reload Game Button','Save & Reload button added to Options menu!',[16,5],5);
 	}
 });
