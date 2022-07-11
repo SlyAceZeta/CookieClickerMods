@@ -14,8 +14,8 @@ Game.registerMod("ReloadGameButton", {
 
 				// add button to menu
 				var topBtns = document.querySelector("#menu").querySelector(".subsection").querySelectorAll(".listing");
-				var saveQuitBtn = topBtns[1];
-				saveQuitBtn.after(reloadBtn);
+				var saveBtn = topBtns[2];
+				saveBtn.after(reloadBtn);
 			}
 		}
 
