@@ -10,7 +10,7 @@ Game.registerMod("ReloadGameButton", {
 				// create button
 				var reloadBtn = document.createElement("div");
 				reloadBtn.classList.add("listing");
-				reloadBtn.innerHTML = "<a class='option smallFancyButton' onclick='Game.toSave=true;Game.toReload=true;'>Save & Reload</a><label>Reload the game without closing it</label>";
+				reloadBtn.innerHTML = "<a class='option smallFancyButton' onclick='Game.toReload=true;'>Reload Last Save</a><a class='option smallFancyButton' onclick='Game.toSave=true;Game.toReload=true;'>Save & Reload</a><label>Reload the game without closing it</label>";
 
 				// add button to menu
 				var topBtns = document.querySelector("#menu").querySelector(".subsection").querySelectorAll(".listing");
@@ -19,6 +19,6 @@ Game.registerMod("ReloadGameButton", {
 			}
 		}
 
-		Game.Notify('Reload Game Button','Save & Reload button added!',[16,5],5);
+		Game.Notify('Reload Game Button','Reload buttons added!',[16,5],5);
 	}
 });
