@@ -13,7 +13,8 @@ Game.registerMod("ReloadGameButton", {
 				reloadBtn.innerHTML = "<a class='option smallFancyButton' onclick='Game.toReload=true;'>Reload Last Save</a><a class='option smallFancyButton' onclick='Game.toSave=true;Game.toReload=true;'>Save & Reload</a><label>Reload the game without closing it</label>";
 
 				// add button to menu
-				var topBtns = document.querySelector("#menu").querySelector(".subsection").querySelectorAll(".listing");
+				var langBtn = document.getElementById("changeLanguageOption");
+				var topBtns = langBtn.parentElement.parentElement.querySelectorAll(".listing");
 				var saveBtn = topBtns[2];
 				saveBtn.after(reloadBtn);
 			}
